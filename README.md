@@ -8,9 +8,7 @@ Neste projeto você vai comparar dois algoritmos para resolver problema que pode
 Seu código deve escolher aleatoriamente tamanhos de entradas n adequados para a comparação. Alem disso, seu código deve criar aleatoriamente entradas para o problema.
 Você deve comparar os algoritmos de forma justa, então você deve criar os tamanhos de entrada e as entradas para executar os algoritmos levando isso em consideração. Você pode usar como base o que foi feito no projeto da primeira etapa. Configurar os experimentos de comparação de forma adequada  é um dos elementos considerados na avaliação desta atividade.
 
-## 1. Comparar os algoritmos Rod-Cut recursivo com memoização e o Rod-Cut iterativo.
-## As implementações dos dois algoritmos devem ser capazes de mostrar o custo da
-## solução  ótima e mostrar a solução ótima em si.
+## 1. Comparar os algoritmos Rod-Cut recursivo com memoização e o Rod-Cut iterativo.As implementações dos dois algoritmos devem ser capazes de mostrar o custo da solução  ótima e mostrar a solução ótima em si. 
 
 
 O método de programação dinâmica funciona da seguinte maneira. Tendo observado que uma solução recursiva ingênua é ineficiente porque resolve os mesmos subproblemas repetidamente, fazemos com que cada subproblema seja resolvido apenas uma vez , salvando sua solução. Se precisarmos nos referir à solução desse subproblema novamente mais tarde, podemos apenas procurá-la, em vez de recalculá-la. A programação dinâmica, portanto, usa memória adicional para economizar tempo de computação; serve como um exemplo de troca de memória de tempo . A economia pode ser dramática: uma solução de tempo exponencial pode ser transformada em uma solução de tempo polinomial. Uma abordagem de programação dinâmica é executada em tempo polinomial quando o número de subproblemas distintos envolvidos é polinomial no tamanho da entrada e podemos resolver cada um desses subproblemas em tempo polinomial.
