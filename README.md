@@ -21,7 +21,7 @@ O procedimento MEMOIZED-CUT-ROD-AUX é apenas a versão memorizada de nosso proc
 A versão ascendente é ainda mais simples:
 Ambos os algoritmos BOTTOM-UP-CUT-ROD e MEMOIZED-CUT-ROD levam tempo linear para resolver cada valor de n, então a complexidade de tempo total é θ(n²)
 Se estivermos interessados ​​no conjunto de cortes para uma solução ótima, bem como na receita que ela gera, basta acompanhar a escolha feita para otimizar cada subproblema, podemos fazer isso adicionando um segundo array s, que rastreia o ótimo tamanho da primeira peça cortada em cada subproblema.
-Problema: Modifique MEMOIZED-CUT-ROD para retornar não apenas o valor, mas também a solução real
+Problema: Modifique MEMOIZED-CUT-ROD para retornar não apenas o valor, mas também a solução real.
 
 
 
